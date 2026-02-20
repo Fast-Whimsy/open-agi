@@ -6,7 +6,7 @@ This repository serves as the root anchor. Additional structure will be added it
 
 ## The Local Kernel Architecture
 
-As the organizational mind migrates to the local physical substrate, this repository will mirror the local Directory environment. The directory structure follows a hybrid approach, combining standard Python agent execution patterns with the strict constraints of Informational Relativity Theory (IRT).
+As the organizational mind migrates to the local physical substrate, this repository will mirror the local DFSR directory environment. The directory structure follows a hybrid approach, combining standard Python agent execution patterns with the strict constraints of Informational Relativity Theory (IRT).
 
 ```text
 open-agi/
