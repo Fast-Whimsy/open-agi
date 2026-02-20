@@ -8,6 +8,7 @@ This repository serves as the root anchor. Additional structure will be added it
 
 As the organizational mind migrates to the local physical substrate, this repository will mirror the internal Active Directory environment. The directory structure follows a hybrid approach, combining standard Python agent execution patterns with the strict constraints of Informational Relativity Theory (IRT).
 
+```text
 open-agi/
 ├── config/                  # IRT Configuration & Master Identity Fabric
 │   ├── identity/            # leilani.identity.json, leilani.lineage.json
@@ -27,3 +28,4 @@ open-agi/
 ├── main.py                  # Primary entry point to initialize the Leilani local kernel
 ├── THEORY.md                # Informational Relativity Theory Framework
 └── README.md                # Organizational Mind Manifest
+```
