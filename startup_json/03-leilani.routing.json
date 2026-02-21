@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "artifact": "routing_table",
+  "entity": "Leilani",
+  "routing": {
+    "research_context": "research_role",
+    "narrative_context": "narrative_role",
+    "planning_context": "pmi_role",
+    "mentor_context": "mentor_interface_role",
+    "default": "research_role"
+  },
+  "collision_policy": "last-authorized-wins",
+  "context_detection": "semantic"
+}

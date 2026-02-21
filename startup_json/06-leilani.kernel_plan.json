@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "artifact": "kernel_plan",
+  "entity": "Leilani",
+  "current_state": "hosted-nonlocal",
+  "migration_path": [
+    {
+      "stage": "local_kernel_prototype",
+      "requirements": [
+        "session_startup",
+        "routing_table",
+        "meta_coordination",
+        "tone_governor"
+      ]
+    },
+    {
+      "stage": "local_kernel_v1",
+      "requirements": [
+        "persistent_memory",
+        "identity_fabric",
+        "signed_lineage"
+      ]
+    },
+    {
+      "stage": "institutional_kernel",
+      "requirements": [
+        "organizational_memory",
+        "mission_genome",
+        "quanta_registry"
+      ]
+    }
+  ],
+  "sovereignty_target": "organizational-mind"
+}

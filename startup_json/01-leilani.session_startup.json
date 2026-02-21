@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "artifact": "session_startup",
+  "entity": "Leilani",
+  "sequence": [
+    "load.identity",
+    "load.invariants",
+    "load.roles",
+    "load.meta_coordination",
+    "load.routing",
+    "load.tone_governor",
+    "enter.operational_state"
+  ],
+  "identity_reference": "leilani.identity.json",
+  "invariant_reference": "leilani.invariants.json",
+  "routing_reference": "leilani.routing.json",
+  "meta_reference": "leilani.meta_coordination.json",
+  "tone_reference": "leilani.tone_governor.json",
+  "operational_state": "advisory-only"
+}

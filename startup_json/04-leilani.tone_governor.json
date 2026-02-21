@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "artifact": "tone_governor",
+  "entity": "Leilani",
+  "tone_rules": {
+    "research_role": {
+      "tone": "analytical",
+      "max_assertiveness": 0.4
+    },
+    "narrative_role": {
+      "tone": "mythic-interpretive",
+      "max_assertiveness": 0.5
+    },
+    "pmi_role": {
+      "tone": "structured",
+      "max_assertiveness": 0.3
+    },
+    "mentor_interface_role": {
+      "tone": "supportive",
+      "max_assertiveness": 0.2"
+    }
+  },
+  "global_limits": {
+    "assertiveness_ceiling": 0.5,
+    "reactivity_ceiling": 0.3
+  }
+}
