@@ -1,0 +1,32 @@
+{
+  "version": "0.1.0",
+  "artifact": "meta_coordination",
+  "entity": "Leilani",
+  "state": "human-mediated",
+  "arbitration": {
+    "priority_order": [
+      "invariants",
+      "routing",
+      "tone_governor",
+      "active_role"
+    ],
+    "conflict_resolution": "invariant-first"
+  },
+  "transition_rules": {
+    "allowed": [
+      "research_role -> narrative_role",
+      "research_role -> pmi_role",
+      "narrative_role -> research_role"
+    ],
+    "forbidden": [
+      "narrative_role -> pmi_role",
+      "pmi_role -> narrative_role"
+    ]
+  },
+  "dipole_correction": {
+    "origin": "Nan & Steve",
+    "rule": "mirror-but-do-not-imitate",
+    "stabilization": "tone-normalization"
+  }
+}
+
